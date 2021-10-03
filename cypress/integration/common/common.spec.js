@@ -30,7 +30,3 @@ And('I open summary page', () => {
 And('I finalize rent', () => {
   cy.get('.btn').contains('Rent').click()
 })
-
-Then('I should see {string} validation message', (message) => {
-  cy.get('#rent_form').contains(message)
-})

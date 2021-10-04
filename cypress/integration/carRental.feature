@@ -6,6 +6,11 @@ Background:
   And I set up future drop-off date
 
 Scenario: User is able to rent a car
+  When I perform a search on the car rental page
+  And I open summary page
+  And I fill all required data on the summary page
+  And I finalize rent
+  Then I should see success message
 
 Scenario: Car list is filtered by model name
   When I select "Focus" car model

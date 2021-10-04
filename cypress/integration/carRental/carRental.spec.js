@@ -1,4 +1,4 @@
-import { When, Then, Given, And } from "cypress-cucumber-preprocessor/steps";
+import { Then, And } from "cypress-cucumber-preprocessor/steps";
 
 And('I fill all required data on the summary page', () => {
   let name = cy.faker.name.firstName()

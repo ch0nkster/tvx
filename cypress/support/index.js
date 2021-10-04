@@ -1,4 +1,4 @@
 import './commands'
 
 cy.faker = require('faker');
-cy.dayjs = require('dayjs')
+cy.dayjs = require('dayjs');

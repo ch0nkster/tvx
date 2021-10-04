@@ -21,11 +21,11 @@ And('I perform a search on the car rental page', () => {
 })
 
 And('I open summary page', () => {
-  cy.get('.btn').contains('Rent').click()
+  cy.rent() 
 
-  cy.get('.btn').contains('Rent!').click()
+  cy.rent()
 })
 
 And('I finalize rent', () => {
-  cy.get('.btn').contains('Rent').click()
+  cy.rent()
 })

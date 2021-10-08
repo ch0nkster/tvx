@@ -13,9 +13,9 @@ Scenario: User is able to rent a car
   Then I should see success message
 
 Scenario: Car list is filtered by model name
-  When I select "Focus" car model
+  When I select 'Focus' car model
   And I perform a search on the car rental page
-  Then I should see only "Focus" model in the search results
+  Then I should see only 'Focus' model in the search results
 
 Scenario: Validation on summary page is working
   When I perform a search on the car rental page
